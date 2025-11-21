@@ -1,0 +1,32 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:label="Yantra"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Yantra">
+        <activity
+            android:name="com.example.yantra.InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.yantra.AccountActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.yantra.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.yantra.ProductDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.yantra.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

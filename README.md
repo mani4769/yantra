@@ -1,1 +1,2 @@
-# yantra
+# Yantra (Android skeleton)
+
